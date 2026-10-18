@@ -1,0 +1,26 @@
+{
+  "model": "hunyuan",
+  "geometry": {
+    "grid": [
+      33,
+      45,
+      80
+    ],
+    "text_tokens": 16,
+    "block_size": 128
+  },
+  "operator": {
+    "head_density": 0.2,
+    "closure_gate_theta": 2.0,
+    "host_banks": true,
+    "prefetch_banks": true,
+    "bank_chunks": 4
+  },
+  "schedule": {
+    "num_steps": 50,
+    "prefix_floor": 0,
+    "prefix_cap": 5,
+    "tail_exact": 1
+  },
+  "sync_step_timing": true
+}

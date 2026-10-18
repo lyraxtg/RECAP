@@ -1,0 +1,13 @@
+{
+  "model": "cogvideox1.5",
+  "preset": "normal_slow",
+  "operating_point": {
+    "B": 32,
+    "tau_pred": 0.025,
+    "tau_detail": 0.1
+  },
+  "example": {
+    "prompt": "A joyful dog, a golden retriever, sits proudly in a vibrant yellow turtleneck, its fur contrasting beautifully against the dark studio background. The dog's eyes sparkle with happiness, and its mouth is open in a cheerful pant, showcasing its playful nature. The yellow turtleneck fits snugly, highlighting the dog's sleek build and adding a touch of whimsy to the portrait. The lighting is soft yet focused, casting a gentle glow on the dog's face, emphasizing its expressive eyes and joyful demeanor. The dark background ensures all attention is drawn to the dog's radiant presence, creating a striking and heartwarming portrait.",
+    "seed": 0
+  }
+}

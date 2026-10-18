@@ -1,0 +1,13 @@
+{
+  "model": "hunyuan",
+  "preset": "fast",
+  "operating_point": {
+    "B": 17,
+    "tau_pred": 0.2,
+    "tau_detail": 0.2
+  },
+  "example": {
+    "prompt": "Cinematic shot of Van Gogh's selfie, Van Gogh style. Warm lighting, Intense",
+    "seed": 0
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "model": "wan2.1-1.3b",
+  "preset": "normal_fast",
+  "operating_point": {
+    "B": 20,
+    "tau_pred": 0.05,
+    "tau_detail": 0.1
+  },
+  "example": {
+    "prompt": "A lone astronaut, clad in a pristine white spacesuit adorned with patches and insignias, floats effortlessly against the vast, star-studded expanse of space. The Earth, a vibrant blue and green sphere, looms majestically in the background, its atmosphere glowing softly. The astronaut's visor reflects the distant sun, casting a golden hue. As they maneuver with gentle bursts from their thrusters, the silence of the cosmos envelops them. Nearby, a sleek spacecraft hovers, its metallic surface glinting. The scene captures the awe and isolation of space exploration, with the astronaut's every movement a testament to human ingenuity and the quest for discovery.",
+    "seed": 0
+  }
+}

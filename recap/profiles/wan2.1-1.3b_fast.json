@@ -1,0 +1,26 @@
+{
+  "model": "wan2.1-1.3b",
+  "geometry": {
+    "grid": [
+      21,
+      30,
+      52
+    ],
+    "text_tokens": 0,
+    "block_size": 128
+  },
+  "operator": {
+    "head_density": 0.4,
+    "closure_gate_theta": 2.0,
+    "host_banks": true,
+    "prefetch_banks": true,
+    "bank_chunks": 1
+  },
+  "schedule": {
+    "num_steps": 50,
+    "prefix_floor": 0,
+    "prefix_cap": 0,
+    "tail_exact": 2
+  },
+  "sync_step_timing": true
+}

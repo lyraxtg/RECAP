@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recap-attention"
+version = "1.0.0"
+description = "RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy", "torch>=2.4", "triton>=3.0"]
+
+[project.optional-dependencies]
+# The block-sparse attention kernel (block_sparse_attn) is built from source rather than
+# installed from an index, so it is not listed here.
+models = [
+    "diffusers>=0.34,<0.36",
+    "transformers>=4.45,<5",
+    "accelerate>=1.0",
+    "sentencepiece",
+    "ftfy",
+    "imageio",
+    "imageio-ffmpeg",
+]
+
+[tool.setuptools]
+packages = ["recap", "recap.kernels", "recap.models", "recap.sparse"]
+
+[tool.setuptools.package-data]
+recap = ["profiles/*.json"]

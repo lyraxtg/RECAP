@@ -1,0 +1,13 @@
+{
+  "model": "wan2.1-1.3b",
+  "preset": "fast",
+  "operating_point": {
+    "B": 15,
+    "tau_pred": 0.1,
+    "tau_detail": 0.05
+  },
+  "example": {
+    "prompt": "A corgi's head, with its adorable features, transforms into a mesmerizing cosmic explosion. The fur seamlessly blends into swirling nebulae, with vibrant hues of deep blues, purples, and pinks. Stars and galaxies twinkle within the corgi's eyes, creating an ethereal glow. Wisps of cosmic dust and gas radiate outward, forming intricate patterns that mimic the corgi's fur texture. The background is a vast expanse of space, dotted with distant stars, enhancing the surreal and otherworldly atmosphere. The entire scene captures the whimsical fusion of a beloved pet and the grandeur of the universe.",
+    "seed": 0
+  }
+}

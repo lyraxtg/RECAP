@@ -1,0 +1,13 @@
+{
+  "model": "hunyuan",
+  "preset": "normal_slow",
+  "operating_point": {
+    "B": 31,
+    "tau_pred": 0.1,
+    "tau_detail": 0.2
+  },
+  "example": {
+    "prompt": "A lightning bolt strikes the top of the Eiffel Tower, dark clouds fill the sky. Realistic, Night lighting, Tense",
+    "seed": 0
+  }
+}

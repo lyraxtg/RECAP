@@ -1,0 +1,26 @@
+{
+  "model": "cogvideox1.5",
+  "geometry": {
+    "grid": [
+      11,
+      48,
+      85
+    ],
+    "text_tokens": 226,
+    "block_size": 128
+  },
+  "operator": {
+    "head_density": 0.1,
+    "closure_gate_theta": 2.0,
+    "host_banks": true,
+    "prefetch_banks": true,
+    "bank_chunks": 1
+  },
+  "schedule": {
+    "num_steps": 50,
+    "prefix_floor": 6,
+    "prefix_cap": 0,
+    "tail_exact": 0
+  },
+  "sync_step_timing": true
+}

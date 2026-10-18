@@ -1,0 +1,13 @@
+{
+  "model": "hunyuan",
+  "preset": "normal_fast",
+  "operating_point": {
+    "B": 24,
+    "tau_pred": 0.1,
+    "tau_detail": 0.2
+  },
+  "example": {
+    "prompt": "A beautiful girl with vampire makeup on her face and red contact lenses. Realistic, Soft lighting, Mysterious",
+    "seed": 0
+  }
+}
