@@ -2,7 +2,13 @@
 
 [Tiange Xu](https://openreview.net/profile?id=~Tiange_Xu1), [Kai Liu](https://openreview.net/profile?id=~Kai_Liu21), [Linghe Kong](https://openreview.net/profile?id=~Linghe_Kong1), and [Yulun Zhang](https://openreview.net/profile?id=~Yulun_Zhang1)
 
-"RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion"
+"RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion", arXiv 2026
+
+<div>
+<a href="https://arxiv.org/abs/2610.26244">
+    <img src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv&logoSvg">
+  </a>
+</div>
 
 ---
 
@@ -113,6 +119,19 @@ each sample, as the scripts do.
 <summary>Results on Wan2.1-1.3B</summary>
 <p align="center"><img src="assets/results_wan.png" width="900"></p>
 </details>
+
+## Citation
+
+If you find the code helpful in your research or work, please cite the following paper.
+
+```bibtex
+@article{xu2026recap,
+  title={RECAP: Reciprocal Sparse Attention and Hierarchical Caching for Efficient Video Diffusion},
+  author={Xu, Tiange and Liu, Kai and Kong, Linghe and Zhang, Yulun},
+  journal={arXiv preprint arXiv:2610.26244},
+  year={2026}
+}
+```
 
 ## Acknowledgements
 
